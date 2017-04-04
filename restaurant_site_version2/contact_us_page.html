@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="restaurantStyles.css" />
+    <meta charset="utf-8" />
+    <title>Banksy's Bistro - Contact Us</title>
+    <style>
+        body {
+            background-color: lightgray;
+        }
+
+        nav {
+            background-color: burlywood;
+        }
+
+        #div1 {
+            width: 400px;
+            margin: auto;
+        }
+
+        td, tr {
+            padding: 5px
+        }
+
+        .text {
+            text-align: right;
+        }
+
+        .input {
+            width: 174px;
+        }
+
+        .catinput {
+            width: 178px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Banksy's Bistro
+    </header>
+    <hr />
+    <div>
+        <nav style="background-color:burlywood">
+            <a href="home_page.html">Home</a>
+            <a href="menu_page.html">Menu</a>
+            <a href="contact_us_page.html">Contact Us</a>
+        </nav>
+    </div>
+    <hr />
+    <div>
+        <form>
+            <div id="div1">
+                <table>
+                    <tr><td class="text ">Name:</td><td><input class="input" type="text" /></td></tr>
+                    <tr><td class="text ">Email:</td><td><input class="input" type="text" /></td></tr>
+                    <tr><td class="text ">Phone:</td><td><input class="input" type="text" /></td></tr>
+                    <tr>
+                        <td class="text">Reason for Inquiry:</td>
+                        <td>
+                            <select class="catinput">
+                                <option value="Catering" selected>Catering</option>
+                                <option value="Private Party">Private Party</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td class="text ">Additional Information:</td><td><textarea></textarea></td></tr>
+                    <tr>
+                        <td class="text ">Have you been to the restaurant?</td>
+                        <td><input type="radio" name="answer" value="No" checked />No<input type="radio" name="answer" value="Yes" />Yes</td>
+                    </tr>
+                    <tr>
+                        <td class="text ">Best days to contact you:</td>
+                        <td>
+                            <input type="checkbox" name="day" value="Monday" />M
+                            <input type="checkbox" name="day" value="Tuesday" />T
+                            <input type="checkbox" name="day" value="Wednesday" />W
+                            <input type="checkbox" name="day" value="Thursday" />T
+                            <input type="checkbox" name="day" value="Friday" />F
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="text"><input type="submit" value="Send Request" /></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
+    <hr />
+    <footer>
+        <p>123 Makin, Baconpancakes, Brohio, 12345</p>
+        <p>(NOT)867-5309</p>
+    </footer>
+</body>
+</html>
