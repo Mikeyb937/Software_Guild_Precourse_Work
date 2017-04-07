@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="restaurantStyles.css" />
+    <meta charset="utf-8" />
+    <title>Banksy's Bistro - Contact Us</title>
+    <style>
+        label {
+            font-weight: bold;
+        }
+
+        .rw {
+            width: 100%;
+            margin: auto;
+            padding: 5px;
+        }
+
+        .tcl, .icl {
+            display: inline-block
+        }
+
+        .tcl {
+            margin-right: 10px;
+            width: 35%;
+            text-align: right;
+        }
+
+        .icl {
+            margin: 5px;
+        }
+
+        .wid {
+            width: 174px;
+        }
+
+        #catwid {
+            width: 178px;
+        }
+
+        #subfix {
+            text-align: right;
+            width: 60%;
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Banksy's Bistro
+    </header>
+    <hr />
+    <div>
+        <nav>
+            <a href="home_page.html">Home</a>
+            <a href="menu_page.html">Menu</a>
+            <a href="contact_us_page.html">Contact Us</a>
+        </nav>
+    </div>
+    <hr />
+    <div>
+        <form action="fake_form_page.html" method="post" style="width:45%; margin:auto;">
+            <div class="rw"><div class="tcl"><label>Name:</label></div> <div class="icl"><input class="wid" type="text" /></div></div>
+            <div class="rw"><div class="tcl"><label>Email:</label></div> <div class="icl"><input class="wid" type="text" /></div></div>
+            <div class="rw"><div class="tcl"><label>Phone:</label></div> <div class="icl"><input class="wid" type="text" /></div></div>
+            <div class="rw">
+                <div class="tcl"><label>Reason for Inquiry:</label></div>
+                <div class="icl">
+                    <select id="catwid">
+                        <option>Catering</option>
+                        <option>Private Party</option>
+                        <option>Feedback</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="rw">
+                <div class="tcl"><label>Additional Information:</label></div>
+                <div class="icl"><textarea></textarea></div>
+            </div>
+            <div class="rw">
+                <div class="tcl"><label> Have you been to the restaurant?</label></div>
+                <div class="icl">
+                    <input type="radio" name="answer" value="NO" checked />No
+                    <input type="radio" name="answer" value="Yes" />Yes
+                </div>
+            </div>
+            <div class="rw">
+                <div class="tcl"><label> Best days to contact you:</label></div>
+                <div class="icl">
+                    <input type="checkbox" name="day" value="Monday" />M
+                    <input type="checkbox" name="day" value="Tuesday" />T
+                    <input type="checkbox" name="day" value="Wednesday" />W
+                    <input type="checkbox" name="day" value="Thursday" />Th
+                    <input type="checkbox" name="day" value="Friday" />F
+                </div>
+            </div>
+            <div class="rw" id="subfix"><div class="tcl"></div><div class="icl"> <input type="submit" value="Send Request" /></div></div>
+        </form>
+    </div>
+    <hr />
+    <footer>
+        <p>123 Makin, Baconpancakes, Brohio, 12345</p>
+        <p>(NOT)867-5309</p>
+    </footer>
+</body>
+</html>
