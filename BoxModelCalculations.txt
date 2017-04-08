@@ -1,0 +1,28 @@
+#div1 {
+height: 150px;
+width: 400px;
+margin: 20px;
+border: 1px solid red;
+padding: 10px;
+}
+
+
+	Total height is equal to the elements top margin + top border + top padding + content heighth + bottom padding + bottom border + bottom margin.
+
+		total height =(tm)20px +(tb)1px + (tp)10px + (h)150px + (bp)10px + (bb)1px + (bm) 20px
+			total height = 212px
+
+	Total width is equal to the elements left margin + left border + left padding + content width + right padding + right border + right margin.
+		
+		total width = (lm)20px + (lb)1px + (lp)10px + (w)400px + (rp)10px + (rb)1px + (rm)20px
+			total width = 462px
+
+	Browser height is equal to the elements top border + top padding + content heighth + bottom padding + bottom border
+		
+		browser height = (tb)1px + (tp)10px + (h)150px + (bp)10px + (bb)1px
+			browser height =172px
+
+	Browser width is equal to the elements left border + left padding + content width + right padding + right border
+		
+		browser width = (lb)1px + (lp)10px + (w)400px + (rp)10px + (rb)1px
+			browser width = 422px
