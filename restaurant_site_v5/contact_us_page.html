@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="restaurantStyles.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Banksy's Bistro - Contact Us</title>
+    <style>
+        #txtright {
+            text-align: right;
+        }
+
+        .rowpads {
+            padding: 5px 0px 5px 0px
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            Banksy's Bistro
+        </header>
+        <hr />
+        <div>
+            <ul class="nav nav-pills">
+                <li><a href="home_page.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="menu_page.html">Menu</a></li>
+                <li class="active"><a href="contact_us_page.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <hr />
+        <div>
+            <form action="fake_form_page.html" method="post" ;>
+                <div class="row rowpads">
+                    <div class="col-sm-5" id="txtright">
+                        <label for="name">Name:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input class="form-control" type="text" name="name" id="name" />
+                    </div>
+                </div>
+                <div class="row rowpads">
+                    <div class="col-sm-5" id="txtright">
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input class="form-control" type="text" id="email" />
+                    </div>
+                </div>
+                <div class="row rowpads">
+                    <div class="col-sm-5" id="txtright">
+                        <label for="phone">Phone:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input class="form-control" type="text" id="phone" />
+                    </div>
+                </div>
+                <div class="row rowpads">
+                    <div class="col-sm-5" id="txtright">
+                        <label for="reasons">Reason for Inquiry:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control" id="reasons">
+                            <option>Catering</option>
+                            <option>Private Party</option>
+                            <option>Feedback</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row rowpads">
+                    <div class="col-sm-5" id="txtright">
+                        <label for="addinfo">Additional Information:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <textarea class="form-control" id="addinfo"></textarea>
+                    </div>
+                </div>
+                <div class="row rowpads">
+                    <div class="col-sm-5" id="txtright">
+                        <label for="answer">Have you been to the restaurant?</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <label class="radio-inline"><input type="radio" id="answer" name="answer" value="NO" checked />No</label>
+                        <label class="radio-inline"><input type="radio" id="answer" name="answer" value="Yes" />Yes</label>
+                    </div>
+                </div>
+                <div class="row rowpads">
+                    <div class="col-sm-5" id="txtright">
+                        <label for="day"> Best days to contact you:</label>
+                    </div>
+                    <div class="col-sm-3">
+
+                        <label class="checkbox-inline"><input type="checkbox" id="day" name="day" value="Monday" />M</label>
+                        <label class="checkbox-inline"><input type="checkbox" id="day" name="day" value="Tuesday" />T</label>
+                        <label class="checkbox-inline"><input type="checkbox" id="day" name="day" value="Wednesday" />W</label>
+                        <label class="checkbox-inline"><input type="checkbox" id="day" name="day" value="Thursday" />Th</label>
+                        <label class="checkbox-inline"><input type="checkbox" id="day" name="day" value="Friday" />F</label>
+
+                    </div>
+                </div>
+                <div class="row rowpads">
+                    <div class="col-sm-5">
+                    </div>
+                    <div class="col-sm-3" style="text-align:right;">
+                        <div>
+                            <input type="submit" class="btn" value="Send Request" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <hr />
+        <footer>
+            <p>123 Makin, Baconpancakes, Brohio, 12345</p>
+            <p>(NOT)867-5309</p>
+        </footer>
+    </div>
+</body>
+</html>
